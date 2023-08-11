@@ -2,7 +2,7 @@
 import loc from '../../support/locators'
 import '../../support/accountsCommands'
 
-describe('Account tests', () => {
+describe('Account test', () => {
 
     beforeEach(() => {
         cy.login('viniciuscaine@gmail.com', 'caine123')
